@@ -1,0 +1,24 @@
+{
+  "name": "dpz-grid",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominosui/dpz-grid",
+  "authors": [
+    "turboclaw <dan@turboclaw.com>"
+  ],
+  "description": "The flexible, responsive grid used on dominos.com",
+  "main": "l.grid.css",
+  "keywords": [
+    "css",
+    "grid",
+    "responsive"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
