@@ -1,7 +1,5 @@
 Yet another flexible, percentage-based grid, with [BEM](http://bem.info/)-style class naming. *Only this one is made of pizza.*
 
-Because of our project requirements, the media queries are arranged "desktop first," using `max-width`-based queries to activate the rulesets for additional smaller screen devices.
-
 ## Usage
 
 ### .grid
