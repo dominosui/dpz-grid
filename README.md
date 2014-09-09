@@ -46,6 +46,22 @@ The block in our grid system, the `.grid` class is the main container for any nu
 </div>
 ```
 
+####Nested `grid`s
+
+You can nest additonal `grid` blocks inside of `grid__cell`s. Be aware that `grid__cell` widths are percentage-based and are calculated based on their parent element's width.
+
+```html
+<div class="grid">
+	<div class="grid__cell--one-half">
+		<div class="grid">
+			<div class="grid__cell--one-half">One half</div>
+			<div class="grid__cell--one-half">One half</div>
+		</div>
+	</div>
+	<div class="grid__cell--one-half">One half</div>
+</div>
+```
+
 ####Offset cells with `.grid__cell--offset-[width]`
 
 ```html
