@@ -62,7 +62,21 @@ You can nest additonal `grid` blocks inside of `grid__cell`s. Be aware that `gri
 </div>
 ```
 
-####Offset cells with `.grid__cell--offset-[width]`
+###Modifiers
+
+There are a handful of built-in modifier classes for both the `grid` and `grid__cell` elements. Feel free to extend the base elements with additional modifier classes.
+
+####`.grid--center`
+
+By default, all `grid__cell`s are left-aligned, and, predictably, this will center them (but will not center the text within them).
+
+####`.grid--no-gutter`
+
+Removes the 2.5% margin between all `grid__cell`s so that they fit tight up against each other.
+
+####`.grid__cell--offset-[width]`
+
+Offsets an individual cell the specified distance from either the left border of the `grid` or its nearest preceeding `grid__cell`.
 
 ```html
 <div class="grid">
