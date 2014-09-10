@@ -48,7 +48,7 @@ The block in our grid system, the `.grid` class is the main container for any nu
 
 ####Nested `grid`s
 
-You can nest additonal `grid` blocks inside of `grid__cell`s. Be aware that `grid__cell` widths are percentage-based and are calculated based on their parent element's width.
+You can nest additonal `grid` blocks inside of `grid__cell`s. Be aware that `grid__cell` widths are percentage-based and are calculated based on their parent element's width, so a nested `grid__cell--one-half` will not be the same rendered width as one that is not nested within a `grid__cell`.
 
 ```html
 <div class="grid">
@@ -70,13 +70,25 @@ There are a handful of built-in modifier classes for both the `grid` and `grid__
 
 By default, all `grid__cell`s are left-aligned, and, predictably, this will center them (but will not center the text within them).
 
+```html
+<div class="grid grid--center">
+    ...
+</div>
+```
+
 ####`.grid--no-gutter`
 
 Removes the 2.5% margin between all `grid__cell`s so that they fit tight up against each other.
 
+```html
+<div class="grid grid--no-gutter">
+    ...
+</div>
+```
+
 ####`.grid__cell--offset-[width]`
 
-Offsets an individual cell the specified distance from either the left border of the `grid` or its nearest preceeding `grid__cell`.
+Using the same human-readable proportions that define the cell width, it offsets an individual cell the specified distance from either the left border of the `grid` or its nearest preceeding `grid__cell`.
 
 ```html
 <div class="grid">
