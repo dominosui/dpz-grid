@@ -95,3 +95,21 @@ Using the same human-readable proportions that define the cell width, it offsets
 	<div class="grid__cell--one-third grid__cell--offset-one-sixth">One third, offset by one sixth</div>
 </div>
 ```
+
+####Device type modifiers
+
+DPZ Grid includes built in modifiers for handheld, tablet, and widescreen device types (following the format `.grid__cell--[device-type]--[width]`), but you can create your own device types as well. The simplest implementation is to `@import` the new files based on media queries like the following contrived example:
+
+```css
+@import url("l.tablet.css") screen and (max-width: 54em);
+@import url("l.handheld.css") screen and (max-width: 40em);
+```
+
+Depending on how your media queries are organized (mobile first vs "desktop" first), make sure that the files are included in the correct order. Once a media query is matched, the corresponding device type modifier classes will be activated and will override the base `grid__cell` class. In the following example, when no media queries are matched, the `grid__cell`s will take up one half of the parent container's width, and when the media query that includes the "handheld" modifier classes is matched, the cells will fill the entire width and stack on top of each other.
+
+```html
+<div class="grid">
+	<div class="grid__cell--one-half grid__cell--handheld--one">...</div>
+	<div class="grid__cell--one-half grid__cell--handheld--one">...</div>
+</div>
+```
