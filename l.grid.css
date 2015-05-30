@@ -13,7 +13,8 @@
 	-webkit-flex-flow: row wrap;
 	display: -ms-flexbox;
 	-ms-flex-flow: row wrap;
-	/* Unprefixed flexbox rules are intentionally omitted due to Firefox's lack of support for flex-wrap */
+	display: flex;
+	flex-flow: row wrap;
 }
 
 .grid__cell,
@@ -34,6 +35,7 @@
 	text-align: center;
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
+	justify-content: center;
 }
 .grid--center .grid__cell,
 .grid--center [class*="grid__cell"] {
