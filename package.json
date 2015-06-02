@@ -1,0 +1,15 @@
+{
+  "name": "dpz-grid",
+  "version": "1.0.1",
+  "description": "The flexible, responsive grid used on dominos.com",
+  "main": "l.grid.css",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.us.dominos.com/web/dpz-grid.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Domino's UI",
+  "license": "ISC"
+}
