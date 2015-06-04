@@ -1,6 +1,6 @@
 {
     "name": "dpz-grid",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "The flexible, responsive grid used on dominos.com",
     "main": "l.grid.css",
     "publishConfig": {

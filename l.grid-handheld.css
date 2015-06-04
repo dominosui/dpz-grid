@@ -1,6 +1,9 @@
 [class*="grid__cell--handheld"] {
 	display: inline-block;
 }
+.grid__cell--handheld--none {
+    display: none;
+}
 .grid__cell--handheld--one {
 	display: block;
 	width: 97.5%;
