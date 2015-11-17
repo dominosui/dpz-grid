@@ -1,6 +1,6 @@
 {
     "name": "dpz-grid",
-    "version": "1.0.2",
+    "version": "2.0.0",
     "description": "The flexible, responsive grid used on dominos.com",
     "main": "l.grid.css",
     "publishConfig": {
@@ -9,13 +9,6 @@
     "repository": {
         "type": "git",
         "url": "ssh://git@stash.us.dominos.com/web/dpz-grid.git"
-    },
-    "devDependencies": {
-        "grunt": "^0.4.5",
-        "grunt-contrib-concat": "^0.5.1",
-        "grunt-contrib-jshint": "^0.11.0",
-        "grunt-contrib-uglify": "^0.8.0",
-        "grunt-contrib-watch": "^0.6.1"
     },
     "keywords": [
         "css"

@@ -1,198 +1,199 @@
-[class*="grid__cell--tablet"] {
-	display: inline-block;
-}
-.grid__cell--tablet--one {
+.grid__cell--one\@tablet {
 	display: block;
 	width: 97.5%;
 }
-.grid__cell--tablet--one-half {
+.grid__cell--one-half\@tablet {
 	width: 47.5%;
 }
-.grid__cell--tablet--one-third {
+.grid__cell--one-third\@tablet {
 	width: 30.833333333%;
 }
-.grid__cell--tablet--two-thirds {
+.grid__cell--two-thirds\@tablet {
 	width: 64.166666666%;
 }
-.grid__cell--tablet--one-quarter {
+.grid__cell--one-quarter\@tablet {
 	width: 22.5%;
 }
-.grid__cell--tablet--three-quarters {
+.grid__cell--three-quarters\@tablet {
 	width: 72.5%;
 }
-.grid__cell--tablet--one-fifth {
+.grid__cell--one-fifth\@tablet {
 	width: 17.5%;
 }
-.grid__cell--tablet--two-fifths {
+.grid__cell--two-fifths\@tablet {
 	width: 37.5%;
 }
-.grid__cell--tablet--three-fifths {
+.grid__cell--three-fifths\@tablet {
 	width: 57.5%;
 }
-.grid__cell--tablet--four-fifths {
+.grid__cell--four-fifths\@tablet {
 	width: 77.5%;
 }
-.grid__cell--tablet--one-sixth {
+.grid__cell--one-sixth\@tablet {
 	width: 14.166666666%;
 }
-.grid__cell--tablet--five-sixths {
+.grid__cell--five-sixths\@tablet {
 	width: 80.833333333%;
 }
-.grid__cell--tablet--one-eighth {
+.grid__cell--one-eighth\@tablet {
 	width: 10%;
 }
-.grid__cell--tablet--three-eighths {
+.grid__cell--three-eighths\@tablet {
 	width: 35%;
 }
-.grid__cell--tablet--five-eighths {
+.grid__cell--five-eighths\@tablet {
 	width: 60%;
 }
-.grid__cell--tablet--seven-eighths {
+.grid__cell--seven-eighths\@tablet {
 	width: 85%;
 }
 
-.grid--no-gutter .grid__cell--tablet--one {
+.grid--no-gutter .grid__cell--one\@tablet {
 	width: 100%;
 }
-.grid--no-gutter .grid__cell--tablet--one-half {
+.grid--no-gutter .grid__cell--one-half\@tablet {
 	width: 50%;
 }
-.grid--no-gutter .grid__cell--tablet--one-third {
+.grid--no-gutter .grid__cell--one-third\@tablet {
 	width: 33.333333333%;
 }
-.grid--no-gutter .grid__cell--tablet--two-thirds {
+.grid--no-gutter .grid__cell--two-thirds\@tablet {
 	width: 66.666666666%;
 }
-.grid--no-gutter .grid__cell--tablet--one-quarter {
+.grid--no-gutter .grid__cell--one-quarter\@tablet {
 	width: 25%;
 }
-.grid--no-gutter .grid__cell--tablet--three-quarters {
+.grid--no-gutter .grid__cell--three-quarters\@tablet {
 	width: 75%;
 }
-.grid--no-gutter .grid__cell--tablet--one-fifth {
+.grid--no-gutter .grid__cell--one-fifth\@tablet {
 	width: 20%;
 }
-.grid--no-gutter .grid__cell--tablet--two-fifths {
+.grid--no-gutter .grid__cell--two-fifths\@tablet {
 	width: 40%;
 }
-.grid--no-gutter .grid__cell--tablet--three-fifths {
+.grid--no-gutter .grid__cell--three-fifths\@tablet {
 	width: 60%;
 }
-.grid--no-gutter .grid__cell--tablet--four-fifths {
+.grid--no-gutter .grid__cell--four-fifths\@tablet {
 	width: 80%;
 }
-.grid--no-gutter .grid__cell--tablet--one-sixth {
+.grid--no-gutter .grid__cell--one-sixth\@tablet {
 	width: 16.666666666%;
 }
-.grid--no-gutter .grid__cell--tablet--five-sixths {
+.grid--no-gutter .grid__cell--five-sixths\@tablet {
 	width: 83.333333333%;
 }
-.grid--no-gutter .grid__cell--tablet--one-eighth {
+.grid--no-gutter .grid__cell--one-eighth\@tablet {
 	width: 12.5%;
 }
-.grid--no-gutter .grid__cell--tablet--three-eighths {
+.grid--no-gutter .grid__cell--three-eighths\@tablet {
 	width: 37.5%;
 }
-.grid--no-gutter .grid__cell--tablet--five-eighths {
+.grid--no-gutter .grid__cell--five-eighths\@tablet {
 	width: 62.5%;
 }
-.grid--no-gutter .grid__cell--tablet--seven-eighths {
+.grid--no-gutter .grid__cell--seven-eighths\@tablet {
 	width: 87.5%;
 }
 
-.grid__cell--tablet--offset-zero {
+.grid__cell--offset-zero\@tablet {
 	margin-left: 2.5%;
 }
-.grid__cell--tablet--offset-one-half {
+.grid__cell--offset-one-half\@tablet {
 	margin-left: 52.5%;
 }
-.grid__cell--tablet--offset-one-third {
+.grid__cell--offset-one-third\@tablet {
 	margin-left: 35.833333333%;
 }
-.grid__cell--tablet--offset-two-thirds {
+.grid__cell--offset-two-thirds\@tablet {
 	margin-left: 69.166666666%;
 }
-.grid__cell--tablet--offset-one-quarter {
+.grid__cell--offset-one-quarter\@tablet {
 	margin-left: 27.5%;
 }
-.grid__cell--tablet--offset-three-quarters {
+.grid__cell--offset-three-quarters\@tablet {
 	margin-left: 77.5%;
 }
-.grid__cell--tablet--offset-one-fifth {
+.grid__cell--offset-one-fifth\@tablet {
 	margin-left: 22.5%;
 }
-.grid__cell--tablet--offset-two-fifths {
+.grid__cell--offset-two-fifths\@tablet {
 	margin-left: 42.5%;
 }
-.grid__cell--tablet--offset-three-fifths {
+.grid__cell--offset-three-fifths\@tablet {
 	margin-left: 62.5%;
 }
-.grid__cell--tablet--offset-four-fifths {
+.grid__cell--offset-four-fifths\@tablet {
 	margin-left: 82.5%;
 }
-.grid__cell--tablet--offset-one-sixth {
+.grid__cell--offset-one-sixth\@tablet {
 	margin-left: 19.166666666%;
 }
-.grid__cell--tablet--offset-five-sixths {
+.grid__cell--offset-five-sixths\@tablet {
 	margin-left: 85.833333333%;
 }
-.grid__cell--tablet--offset-one-eighth {
+.grid__cell--offset-one-eighth\@tablet {
 	margin-left: 15%;
 }
-.grid__cell--tablet--offset-three-eighths {
+.grid__cell--offset-three-eighths\@tablet {
 	margin-left: 40%;
 }
-.grid__cell--tablet--offset-five-eighths {
+.grid__cell--offset-five-eighths\@tablet {
 	margin-left: 65%;
 }
-.grid__cell--tablet--offset-seven-eighths {
+.grid__cell--offset-seven-eighths\@tablet {
 	margin-left: 90%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-zero {
+.grid--no-gutter .grid__cell--offset-zero\@tablet {
 	margin-left: 0;
 }
-.grid--no-gutter .grid__cell--tablet--offset-one-half {
+.grid--no-gutter .grid__cell--offset-one-half\@tablet {
 	margin-left: 50%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-one-third {
+.grid--no-gutter .grid__cell--offset-one-third\@tablet {
 	margin-left: 33.333333333%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-two-thirds {
+.grid--no-gutter .grid__cell--offset-two-thirds\@tablet {
 	margin-left: 66.666666666%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-one-quarter {
+.grid--no-gutter .grid__cell--offset-one-quarter\@tablet {
 	margin-left: 25%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-three-quarters {
+.grid--no-gutter .grid__cell--offset-three-quarters\@tablet {
 	margin-left: 75%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-one-fifth {
+.grid--no-gutter .grid__cell--offset-one-fifth\@tablet {
 	margin-left: 20%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-two-fifths {
+.grid--no-gutter .grid__cell--offset-two-fifths\@tablet {
 	margin-left: 40%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-three-fifths {
+.grid--no-gutter .grid__cell--offset-three-fifths\@tablet {
 	margin-left: 60%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-four-fifths {
+.grid--no-gutter .grid__cell--offset-four-fifths\@tablet {
 	margin-left: 80%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-one-sixth {
+.grid--no-gutter .grid__cell--offset-one-sixth\@tablet {
 	margin-left: 16.666666666%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-five-sixths {
+.grid--no-gutter .grid__cell--offset-five-sixths\@tablet {
 	margin-left: 83.333333333%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-one-eighth {
+.grid--no-gutter .grid__cell--offset-one-eighth\@tablet {
 	margin-left: 12.5%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-three-eighths {
+.grid--no-gutter .grid__cell--offset-three-eighths\@tablet {
 	margin-left: 37.5%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-five-eighths {
+.grid--no-gutter .grid__cell--offset-five-eighths\@tablet {
 	margin-left: 62.5%;
 }
-.grid--no-gutter .grid__cell--tablet--offset-seven-eighths {
+.grid--no-gutter .grid__cell--offset-seven-eighths\@tablet {
 	margin-left: 87.5%;
+}
+
+.is-hidden\@tablet {
+    display: none;
 }

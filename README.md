@@ -4,7 +4,7 @@ Yet another flexible, percentage-based grid, with [BEM](http://bem.info/)-style 
 
 ### .grid
 
-The block in our grid system, the `.grid` class is the main container for any number of child `.grid__cell` elements. You can think of it as a row, but be aware that `.grid__cell`s will wrap, so there can be many visual "rows" of content inside of a single `.grid`. `.grid` and `.grid__cell` elements are also infinitely nestable. `.grid__cell`s are the primary child element of the `.grid` block, this class will most often be used with `--[width]` or `--[device]` modifiers. Width classes will set the percentage width of `.grid__cell`s. Named with human-readable proportions, so that you can easily predict how much of the parent block's width the element will fill.
+The block in our grid system, the `.grid` class is the main container for any number of child `.grid__cell` elements. You can think of it as a row, but be aware that `.grid__cell`s will wrap, so there can be many visual "rows" of content inside of a single `.grid`. `.grid` and `.grid__cell` elements are also infinitely nestable. `.grid__cell`s are the primary child element of the `.grid` block, this class will most often be used with `--[width]` modifiers and `@[device]` scoping suffixes. Width classes will set the percentage width of `.grid__cell`s. Named with human-readable proportions, so that you can easily predict how much of the parent block's width the element will fill.
 
 ```html
 <div class="grid">
@@ -96,20 +96,30 @@ Using the same human-readable proportions that define the cell width, it offsets
 </div>
 ```
 
-####Device type modifiers
+####Device type suffixes
 
-DPZ Grid includes built in modifiers for handheld, tablet, and widescreen device types (following the format `.grid__cell--[device-type]--[width]`), but you can create your own device types as well. The simplest implementation is to `@import` the new files based on media queries like the following contrived example:
+DPZ Grid includes built in suffixes for handheld, tablet, and widescreen device types (following the format `.grid__cell--[width]@[device-type]`), but you can create your own device types as well. The simplest implementation is to `@import` the new files based on media queries like the following contrived example:
 
 ```css
 @import url("l.tablet.css") screen and (max-width: 54em);
 @import url("l.handheld.css") screen and (max-width: 40em);
 ```
 
-Depending on how your media queries are organized (mobile first vs "desktop" first), make sure that the files are included in the correct order. Once a media query is matched, the corresponding device type modifier classes will be activated and will override the base `grid__cell` class. In the following example, when no media queries are matched, the `grid__cell`s will take up one half of the parent container's width, and when the media query that includes the "handheld" modifier classes is matched, the cells will fill the entire width and stack on top of each other.
+Depending on how your media queries are organized (mobile first vs "desktop" first), make sure that the files are included in the correct order. Once a media query is matched, the corresponding device type suffixed classes will be activated and will override the base `grid__cell` class. In the following example, when no media queries are matched, the `grid__cell`s will take up one half of the parent container's width, and when the media query that includes the "handheld" suffixed classes is matched, the cells will fill the entire width and stack on top of each other.
 
 ```html
 <div class="grid">
-	<div class="grid__cell--one-half grid__cell--handheld--one">...</div>
-	<div class="grid__cell--one-half grid__cell--handheld--one">...</div>
+	<div class="grid__cell--one-half grid__cell--one@handheld">...</div>
+	<div class="grid__cell--one-half grid__cell--one@handheld">...</div>
+</div>
+```
+
+####Utility
+
+A more semantically named state class, `is-hidden` replaces the deprecated `grid__cell--none` classes. This class can be used with device type suffixes as well.
+
+```html
+<div class="grid">
+	<div class="grid__cell--one-half is-hidden@handheld">...</div>
 </div>
 ```

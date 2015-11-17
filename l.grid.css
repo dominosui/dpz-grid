@@ -4,7 +4,7 @@
   * .grid__cell elements. You can think of it as a row, but be aware that .grid__cells will wrap,
   * so there can be many visual "rows" of content inside of a single .grid. .grid and .grid__cell
   * elements are also infinitely nestable. .grid__cells are the primary child ELEMENT of the .grid
-  * BLOCK, this class will most often be used with --[width] or --[device] MODIFIERs.Width classes
+  * BLOCK, this class will most often be used with --[width] MODIFIERs. Width classes
   * will set the percentage width of .grid__cells. Named with human-readable proportions, so that
   * you can easily predict how much of the parent BLOCK's width the ELEMENT will fill.
   */
@@ -29,7 +29,7 @@
 
 /**
   * .grid__cell, .grid__cell--*
-  * The primary child ELEMENT of the .grid BLOCK, this class will most often be used with --width or --device MODIFIERs.
+  * The primary child ELEMENT of the .grid BLOCK, this class will most often be used with --width MODIFIERs.
   */
 .grid__cell,
 [class*="grid__cell"] {
@@ -67,9 +67,6 @@
   * proportions, so that you can easily predict how much of the parent BLOCK's width the ELEMENT
   * will fill.
   */
-.grid__cell--none {
-    display: none;
-}
 .grid__cell--one {
 	display: block;
 	width: 97.5%;
@@ -272,4 +269,8 @@
 }
 .grid--no-gutter .grid__cell--offset-seven-eighths {
 	margin-left: 87.5%;
+}
+
+.is-hidden {
+    display: none;
 }
